@@ -1,0 +1,12 @@
+name: fleet_app
+title: fleet_app
+username:
+account: epflextensionschool
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3287904
+bundleId: 3895135
+url: https://epflextensionschool.shinyapps.io/fleet_app/
+when: 1606139476.57829
+asMultiple: FALSE
+asStatic: FALSE

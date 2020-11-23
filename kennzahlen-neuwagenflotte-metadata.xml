@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <dcat:Dataset rdf:about="https://opendata.swiss/dataset/0db78e7a-8db4-4f8c-ac55-6b1c62587267">
+    <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
+    <dcat:keyword xml:lang="en"></dcat:keyword>
+    <dcat:theme rdf:resource="http://opendata.swiss/themes/mobility"/>
+    <dct:description xml:lang="fr">Pour les exercices allant de 2014 à 2016, les statistiques de la flotte des nouveaux véhicules ont été réalisées par canton. Elles comprennent les indicateurs principaux tels que le nombre d'immatriculations, la proportion des véhicules 4x4, la consommation de carburant, le poids à vide et les émissions de CO2. Base légale: art. 22b, al. 1 et 2, OEne.&#13;
+&#13;
+t1 = Anzahl neuer Personenwagen&#13;
+t2 = Anteil Allradfahrzeuge&#13;
+t3 = Durchschnittlicher Treibstoffverbrauch&#13;
+t4 = Durchschnittliche CO2-Emissionen&#13;
+t5 = Durchschnittliches Leergewicht&#13;
+t6 = Anteil Elektrofahrzeuge&#13;
+t7 = Durchschnittliche Fahrzeugpreise&#13;
+&#13;
+Nummerierung der Kantone gemäss BFS</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-07T14:59:31.263473</dct:modified>
+    <dct:description xml:lang="it"></dct:description>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.swiss/dataset/0db78e7a-8db4-4f8c-ac55-6b1c62587267/resource/099174e9-b624-4333-837a-be149e319e62">
+        <dct:title xml:lang="en"></dct:title>
+        <dct:title xml:lang="it"></dct:title>
+        <dct:description xml:lang="de"></dct:description>
+        <dct:title xml:lang="fr"></dct:title>
+        <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
+        <dct:description xml:lang="en"></dct:description>
+        <dct:format>CSV</dct:format>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-12T01:00:00</dct:issued>
+        <dct:description xml:lang="it"></dct:description>
+        <dct:description xml:lang="fr"></dct:description>
+        <dcat:accessURL rdf:resource="http://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Neuwagenflotte/data.csv"/>
+        <dcat:mediaType>text/csv</dcat:mediaType>
+        <dct:title xml:lang="de"></dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:identifier>ogd21@bundesamt-fur-energie-bfe</dct:identifier>
+    <dct:description xml:lang="en"></dct:description>
+    <dcat:keyword xml:lang="de"></dcat:keyword>
+    <dct:title xml:lang="it">Indici relativi al parco di automobili nuove</dct:title>
+    <dct:description xml:lang="de">Für die Berichtsjahre 2014 bis 2016 wurden die Kennzahlen zur Neuwagenflotte des jeweiligen Jahres nach Kanton ausgewertet. Pro Kanton werden die wichtigsten Kenngrössen wie die Anzahl Zulassungen, Anteil Allradfahrzeuge, Treibstoffverbrauch, Leergewicht und CO2-Ausstoss ausgewiesen. Rechtsgrundlage: EnV Art. 22b, Absatz 1, 2.&#13;
+&#13;
+t1 = Anzahl neuer Personenwagen&#13;
+t2 = Anteil Allradfahrzeuge&#13;
+t3 = Durchschnittlicher Treibstoffverbrauch&#13;
+t4 = Durchschnittliche CO2-Emissionen&#13;
+t5 = Durchschnittliches Leergewicht&#13;
+t6 = Anteil Elektrofahrzeuge&#13;
+t7 = Durchschnittliche Fahrzeugpreise&#13;
+&#13;
+Nummerierung der Kantone gemäss BFS</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-12T01:00:00</dct:issued>
+    <dcat:keyword xml:lang="fr"></dcat:keyword>
+    <dct:title xml:lang="fr">Statistiques des voitures neuves</dct:title>
+    <dcat:keyword xml:lang="it"></dcat:keyword>
+    <dcat:landingPage>https://www.bfe.admin.ch/bfe/de/home/versorgung/statistik-und-geodaten/kennzahlen-fahrzeuge/kennzahlen-neuwagenflotte.html</dcat:landingPage>
+    <dct:title xml:lang="en"></dct:title>
+    <dcat:theme rdf:resource="http://opendata.swiss/themes/statistical-basis"/>
+    <dct:publisher>
+      <rdf:Description rdf:nodeID="N9f2b31bff5574e98842b61a62ff7812d">
+        <rdfs:label>Bundesamt für Energie BFE</rdfs:label>
+      </rdf:Description>
+    </dct:publisher>
+    <dct:title xml:lang="de">Kennzahlen Neuwagenflotte</dct:title>
+    <dcat:contactPoint>
+      <vcard:Organization rdf:nodeID="N2e233a0b226c479caf1df2ef275d01d8">
+        <vcard:fn>Bundesamt für Energie BFE</vcard:fn>
+        <vcard:hasEmail rdf:resource="ogd@bfe.admin.ch"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+    <dcat:theme rdf:resource="http://opendata.swiss/themes/energy"/>
+  </dcat:Dataset>
+</rdf:RDF>

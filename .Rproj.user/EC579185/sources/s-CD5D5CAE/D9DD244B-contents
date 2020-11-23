@@ -1,0 +1,7 @@
+.irs-bar {
+  border-color: #fff;
+}
+
+.irs-slider {
+  background-color: #428bca;
+}
